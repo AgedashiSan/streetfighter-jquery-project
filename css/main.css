@@ -14,14 +14,14 @@ body {
 	width: 659px;
 	height: 494px;
 }
-.ryu-stand, .ryu-move, .ryu-attack {
+.ryu-stand, .ryu-move, .ryu-attack, .ryu-cool {
 	width: 659px;
 	height: 494px;
 }
-.ryu-move, .ryu-attack, .hadouken {
+.ryu-move, .ryu-attack, .hadouken, .ryu-cool {
 	display: none;
 }
-.ryu-stand, .ryu-move, .ryu-attack, .hadouken {
+.ryu-stand, .ryu-move, .ryu-attack, .hadouken, .ryu-cool {
 	background-repeat: no-repeat;
 }
 .hadouken {
@@ -45,6 +45,6 @@ body {
 .hadouken {
 	background-image: url('../images/hadouken.gif');
 }
-* {
-	outline: red 1px solid;
+.ryu-cool {
+	background-image: url('../images/ryu-cool.gif');
 }
