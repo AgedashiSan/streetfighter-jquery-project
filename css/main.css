@@ -42,15 +42,18 @@ body {
 .text {
 	width: 500px;
 	color: black;
-	font-size: 24px;
+	font-size: 20px;
 	font-family: comical;
-	line-height: 45px;
+	line-height: 35px;
 	float: left;
 }
-p {
+.text p {
 	width: 50%;
 	display: block;
 	margin-top: 70px;
+}
+.text p + p {
+	margin-left: 200px;
 }
 .ryu-stand {
 	background-image: url('../images/ryu-standing-still.png');
