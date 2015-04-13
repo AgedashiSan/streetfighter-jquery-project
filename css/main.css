@@ -1,3 +1,7 @@
+@font-face{
+	font-family: comical;
+	src: url('../fonts/animeace2_reg.ttf');
+}
 body {
 	background-color: black;
 }
@@ -11,6 +15,8 @@ body {
 	position: relative;
 }
 .ryu {
+	float: left;
+	display: block;
 	width: 659px;
 	height: 494px;
 }
@@ -32,6 +38,19 @@ body {
 	top: 167px;
 	left: 560px;
 	z-index: 10;
+}
+.text {
+	width: 500px;
+	color: black;
+	font-size: 24px;
+	font-family: comical;
+	line-height: 45px;
+	float: left;
+}
+p {
+	width: 50%;
+	display: block;
+	margin-top: 70px;
 }
 .ryu-stand {
 	background-image: url('../images/ryu-standing-still.png');
